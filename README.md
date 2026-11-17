@@ -1,6 +1,12 @@
-<p align="center"><img src="media/hero.gif" width="320" alt="PLATEAU launch reel"></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="media/brand/plateau-lockup.svg">
+    <img src="media/brand/plateau-lockup-ink.svg" width="360" alt="PLATEAU">
+  </picture>
+</p>
 
-<h1 align="center">PLATEAU</h1>
+<p align="center"><img src="media/hero.gif" width="300" alt="PLATEAU launch reel"></p>
+
 <p align="center"><b>Your entire video studio, inside one agent.</b><br>One brief in. A finished video out, with a receipt.</p>
 
 ```
@@ -67,6 +73,11 @@ python3 tools/receipt.py your_video.mp4 --target 30 --aspect 9:16
 
 Higgsfield · ElevenLabs · HeyGen HyperFrames · Figma · Canva · Adobe · Google Drive · Notion · vidIQ · Top_view, plus ffmpeg, Remotion and Whisper.
 Missing one? PLATEAU says which, and carries on with the next best tool.
+
+## Brand
+
+Studio violet `#21145A` · violet `#5A3DC0` · lilac `#B9A8FF` · tally coral `#FF5A4E` · paper `#F4F1FF`.
+The mark is a mesa (a *plateau*) with one coral dot: the tally light a camera shows when it's recording. One coral element per view, always a signal. Type: Inter Display ExtraBold, JetBrains Mono. Logos in [`media/brand/`](media/brand/), full rules in [`BRAND.md`](BRAND.md).
 
 ## House rules
 
