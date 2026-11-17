@@ -1,0 +1,34 @@
+{
+  "job": "launch-reel",
+  "brief": "Make the launch reel for PLATEAU, in the style of the Poolday Media Superintelligence reel, with my brand.",
+  "deliverables": [{"id": "R1", "format": "9:16", "duration_s": 34, "language": "en"}],
+  "producer": {
+    "plan": [
+      {"scene": 1, "intent": "hook", "duration_s": 3.2, "source": "motion", "text": "Introducing PLATEAU"},
+      {"scene": 2, "intent": "proof", "duration_s": 4.2, "source": "motion", "text": "Built as agent skills"},
+      {"scene": 3, "intent": "proof", "duration_s": 3.4, "source": "motion", "text": "set up my video team"},
+      {"scene": 4, "intent": "proof", "duration_s": 3.6, "source": "motion", "text": "Plugged into what you already use"},
+      {"scene": 5, "intent": "proof", "duration_s": 12.0, "source": "motion", "text": "Six desks, one demo each"},
+      {"scene": 6, "intent": "turn", "duration_s": 4.0, "source": "motion", "text": "The part nobody else ships: a receipt"},
+      {"scene": 7, "intent": "payoff", "duration_s": 3.6, "source": "motion", "text": "Comment PLATEAU"}
+    ],
+    "assumptions": ["LinkedIn and Instagram, English first, French cut second"],
+    "budget_ceiling": 0
+  },
+  "brand": {
+    "kit": {"palette": ["#21145A", "#5A3DC0", "#B9A8FF", "#FF5A4E", "#F4F1FF"], "fonts": ["Inter Display", "DejaVu Sans Mono"], "mark": "AHMADOU O."},
+    "violations": []
+  },
+  "editor": {"skipped": "no footage: every scene is coded motion"},
+  "motion": {"method": "HTML scenes rendered frame by frame, one file per scene, joined with ffmpeg concat"},
+  "talent": {"skipped": "no presenter in this cut", "people": []},
+  "performance": {"variants": ["EN 34s", "FR 34s"], "metric": "3-second hold"},
+  "receipt": {
+    "claims": [
+      {"text": "7 desks", "source": "skills/ in this repo"},
+      {"text": "Built as agent skills", "source": "skills/ in this repo"}
+    ],
+    "note": "Numbers inside the desk demos (balances, scores, receipt rows) are labelled UI mockups, not claims."
+  },
+  "ledger": []
+}
