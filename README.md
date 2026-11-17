@@ -28,13 +28,16 @@ Most "AI video teams" stop when the file renders. PLATEAU adds a seventh desk: t
 
 ## Proof: it caught us first
 
-The launch reel above was made with PLATEAU, then checked by it. The first pass **failed**: the soundtrack peaked at −0.9 dBFS (rule: ≤ −1). We fixed the master and ran it again.
+The launch reel above was made with PLATEAU, then checked by it. It has failed us twice so far, and we kept both. The first pass **failed**: the soundtrack peaked at −0.9 dBFS (rule: ≤ −1). We fixed the master and ran it again.
 
 | Run | Stamp | |
 |---|---|---|
 | [`receipt_v1_before.md`](examples/launch-reel/receipt_v1_before.md) | NOT VERIFIED — 1 issue | true peak −0.9 dBFS |
 | [`receipt.md`](examples/launch-reel/receipt.md) | **VERIFIED** | EN cut · [R1_en_34s.mp4](examples/launch-reel/R1_en_34s.mp4) |
 | [`receipt_fr.md`](examples/launch-reel/receipt_fr.md) | **VERIFIED** | FR cut · [R2_fr_34s.mp4](examples/launch-reel/R2_fr_34s.mp4) |
+| [`receipt_v2_before.md`](examples/launch-reel-v2/receipt_v2_before.md) | NOT VERIFIED — 1 issue | v2 first master, peak −0.5 dBFS |
+| [`receipt_en.md`](examples/launch-reel-v2/receipt_en.md) | **VERIFIED** | v2 EN · [R3_en_v2.mp4](examples/launch-reel-v2/R3_en_v2.mp4) |
+| [`receipt_fr.md`](examples/launch-reel-v2/receipt_fr.md) | **VERIFIED** | v2 FR · [R4_fr_v2.mp4](examples/launch-reel-v2/R4_fr_v2.mp4) |
 
 The full job file, with plan, brand kit, claims and ledger, is in [`examples/launch-reel/job.json`](examples/launch-reel/job.json).
 
